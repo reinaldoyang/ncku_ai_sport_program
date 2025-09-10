@@ -1,0 +1,21 @@
+.img-container {
+  position: relative;   /* ✅ key to make text relative to image */
+  width: 100%;
+  height: 200px;        /* same as .page_photo height */
+  overflow: hidden;
+}
+.overlay-text {
+  position: absolute;
+  color: white;
+  font-size: 2.5rem;
+  bottom: 20px;
+  left: 10%;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6); /* makes text readable */
+}
+
+.page_photo {
+  object-fit: cover; /* crop excess and maintain aspect ratio */
+  object-position: center; /* optional: center the image */
+  filter: blur(0px);    /* adjust blur intensity */
+}

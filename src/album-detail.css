@@ -1,0 +1,4 @@
+.album-slider .carousel-img {
+  height: 600px; /* taller than default */
+  object-fit: cover;
+}

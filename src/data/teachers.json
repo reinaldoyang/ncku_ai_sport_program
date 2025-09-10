@@ -1,0 +1,10 @@
+[
+  { "id": 1, "imgSrc": "wangjunhao.png", "title": "王駿濠", "text": "教授", "buttonText": "了解更多", "buttonLink": "/page1" },
+  { "id": 1, "imgSrc": "pengyiqian.png", "title": "彭怡千", "text": "約聘助理教授", "buttonText": "了解更多", "buttonLink": "/page1" },
+  { "id": 1,"imgSrc": "huanghongjun.png", "title": "黃鴻鈞", "text": "助理教授", "buttonText": "了解更多", "buttonLink": "/page1" },
+  { "id": 1,"imgSrc": "huangcanghai.png", "title": "黃滄海", "text": "教授", "buttonText": "了解更多", "buttonLink": "/page1" },
+  { "id": 1,"imgSrc": "jamesjerr.png", "title": "連震杰", "text": "教授", "buttonText": "了解更多", "buttonLink": "/page1" },
+  { "id": 1,"imgSrc": "zhangyaning.png", "title": "張亞寧", "text": "助理教授", "buttonText": "了解更多", "buttonLink": "/page1" },
+  { "id": 1,"imgSrc": "lishaoman.png", "title": "李韶曼", "text": "助理教授", "buttonText": "了解更多", "buttonLink": "/page1" },
+  { "id": 1,"imgSrc": "xuyiyou.png", "title": "徐禕佑", "text": "助理教授", "buttonText": "了解更多", "buttonLink": "/page1" }
+]

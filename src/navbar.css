@@ -1,0 +1,116 @@
+/* Navigation Bar */
+.my-navbar {
+    background-color: #f7a01d;
+    position: relative;
+}
+
+.my-nav-menu {
+    /* to get rid of the dot */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    padding:0;
+}
+
+.my-nav-item {
+    display: flex;        /* Make nav-item flex */
+}
+
+.my-nav-link {
+    padding: 10px 35px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.my-navbar::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%),
+                linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%);
+    background-size: 20px 20px;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+/*Dropdown menu */
+.my-dropdown-menu {
+    display: none; /* hidden by default */
+    position: absolute;
+    top: 100%; /* below parent menu */
+    left: 0;
+    background-color: #f7a01d;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.my-nav-item.dropdown:hover .my-dropdown-menu {
+    display: block;
+}
+
+.my-nav-link:hover {
+    background-color: #e68a00;
+}
+.my-dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.my-dropdown-menu li a:hover {
+    background-color: #e68a00;
+}
+
+/*to make below parent*/
+.my-nav-item {
+    position: relative;
+    height:100%;
+}
+
+.my-link-inner {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Mobile menu icon - hidden on desktop */
+.mobile-menu-icon {
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    align-items:center;
+}
+/* Mobile responsive styles */
+@media screen and (max-width: 768px) {
+    .mobile-menu-icon {
+        display: flex;
+    }
+    
+    .my-nav-menu {
+        position: absolute;
+        left: -100%;
+        top: 100%;
+        flex-direction: column;
+        background-color: #f7a01d;
+        width: 100%;
+        text-align: center;
+        transition: left 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        z-index:10;
+    }
+    
+    .my-nav-menu.active {
+        left: 0;
+    }
+}
+

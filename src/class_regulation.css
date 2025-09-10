@@ -1,0 +1,32 @@
+.row {
+  max-width: 800px;
+  margin: 0 auto; /*to center*/
+  padding: 50px 20px;
+  line-height: 1.8;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.row section {
+  margin-bottom: 32px; /*spacing between section*/
+}
+
+.row h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #333;
+  border-left: 4px solid #0077b6;
+  padding-left: 10px;
+}
+
+.row p {
+  margin: 0;
+  color: #555;
+}
+
+.class_reg_img{
+  padding-top: 20px;
+  width:100%;
+  justify-content: center;
+  align-items:center;
+}

@@ -1,0 +1,29 @@
+/*main container padding*/
+.content {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Flex/Grid container for cards */
+.teachers-grid {
+  display: flex;            /* Use flexbox */
+  flex-wrap: wrap;          /* Wrap cards to next line */
+  justify-content: center;  /* Center cards horizontally */
+  gap: 1.5rem;              /* Space between cards */
+}
+
+/* Each card wrapper */
+.teacher-card {
+  flex: 0 0 22%;        /* Each card takes ~22% of row width this determines the number of col*/
+  max-width: 250px;     /* Optional: limit max size */
+  min-width: 180px;     /* Optional: prevent card from shrinking too much */
+  box-sizing: border-box;
+}
+
+/* Optional: make card images crop nicely inside card */
+.teacher-card img {
+  object-fit: cover;    /* Crop bigger images */
+  width: 100%;
+  height: 300px;        /* Fixed height for uniform look */
+}

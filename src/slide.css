@@ -1,0 +1,16 @@
+.my-carousel {
+  width: 100%;        /* carousel container width */
+  margin: 0 auto;
+  padding: 0;
+}
+
+.my-carousel .carousel-img {
+  width: 100%;
+  height: 300px;       /* set desired height */
+  object-fit: cover;   /* crop excess parts while maintaining aspect ratio */
+}
+
+.slider-text {
+  color: white; /* or any color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}

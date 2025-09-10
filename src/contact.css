@@ -1,0 +1,27 @@
+.contact-table {
+  border-collapse: collapse;
+  margin: 50px auto;
+  width: 100%;          /* make table fill available width */
+  max-width: 600px;     /* but don’t exceed 600px */
+  text-align: center;
+  font-size: 14px;
+  table-layout: fixed;  /* make columns evenly distribute */
+}
+
+.contact-table th,
+.contact-table td {
+  border: 1px solid #333;
+  padding: 8px 12px;
+  word-wrap: break-word; /* allow long content to wrap */
+}
+
+.contact-table th {
+  background-color: #f2f2f2;
+}
+
+/* Optional: make table scrollable on very small screens */
+@media screen and (max-width: 600px) {
+  .content {
+    overflow-x: auto;
+  }
+}
