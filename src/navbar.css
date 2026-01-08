@@ -1,6 +1,7 @@
 /* Navigation Bar */
 .my-navbar {
-    background-color: #f7a01d;
+    /* background-color: #f7a01d; */
+    background-color: #9B111E;
     position: relative;
 }
 
@@ -42,7 +43,7 @@
     position: absolute;
     top: 100%; /* below parent menu */
     left: 0;
-    background-color: #f7a01d;
+    background-color: #9B111E;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -56,7 +57,7 @@
 }
 
 .my-nav-link:hover {
-    background-color: #e68a00;
+    background-color: #9B111E;
 }
 .my-dropdown-menu li a {
     display: block;
@@ -66,7 +67,7 @@
 }
 
 .my-dropdown-menu li a:hover {
-    background-color: #e68a00;
+    background-color: #9B111E;
 }
 
 /*to make below parent*/

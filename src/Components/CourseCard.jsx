@@ -9,7 +9,7 @@ function CourseCard({title, text, buttonText, buttonLink}) {
         <Card.Text>
           {text}
         </Card.Text>
-        <Button variant="primary" href={buttonLink} style={{ backgroundColor: '#f7a01d', borderColor: '#f7a01d' }}>{buttonText}</Button>
+        <Button variant="primary" href={buttonLink} style={{ backgroundColor: '#9B111E', borderColor: '#9B111E' }}>{buttonText}</Button>
       </Card.Body>
     </Card>
   );

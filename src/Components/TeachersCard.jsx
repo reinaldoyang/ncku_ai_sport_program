@@ -14,7 +14,7 @@ function Teachers_card({id, imgSrc, title, text, buttonText}) {
           as={Link}                // 👈 use React Router Link
           to={`/teachers/${id}`}   // 👈 match your route
           variant="primary"
-          style={{ backgroundColor: '#f7a01d', borderColor: '#f7a01d' }}
+          style={{ backgroundColor: '#9B111E', borderColor: '#9B111E' }}
         >
           Learn More
         </Button>

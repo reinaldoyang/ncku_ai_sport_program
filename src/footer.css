@@ -1,6 +1,6 @@
 /*footer*/
 .site-footer {
-    background-color: #142b4d; /* dark blue */
+    background-color: #9B111E; /* dark blue */
     color: white;
     padding: 40px 20px 20px;
     font-size: 0.8rem;
@@ -23,7 +23,7 @@
 }
 
 .footer-bottom a {
-    color: #f7a01d;
+    color: #000000;
     text-decoration: none;
 }
 
