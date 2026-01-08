@@ -2,7 +2,7 @@ import "../contact.css"
 export function Contact() {
     return (
         <div class = "content">
-        <table class="contact-table">
+        <table className="contact-table">
             <thead>
                 <tr>
                 <th>姓名</th>

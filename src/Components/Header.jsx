@@ -1,13 +1,13 @@
-import sport_logo from '../assets/ai_sport.png'
+import sport_logo from '../assets/ai_sport_logo.png'
 import "../header.css"
 import { Link } from 'react-router-dom'
 
 function Header(){
     return (
-        <header>
-            <div class="logo">
+        <header className="header_size">
+            <div className="logo">
                 <Link to="/">
-                    <img src={sport_logo} alt="CSIE AI Logo" class="sport_logo"/>
+                    <img src={sport_logo} alt="CSIE AI Logo" className="sport_logo"/>
                 </Link>
             </div>
         </header>

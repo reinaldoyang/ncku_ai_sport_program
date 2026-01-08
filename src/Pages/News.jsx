@@ -1,6 +1,6 @@
 export function News() {
     return (
-        <main class="content">
+        <main className="content">
             coming soon...
         </main>
     )

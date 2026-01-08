@@ -6,7 +6,7 @@
 
 .my-carousel .carousel-img {
   width: 100%;
-  height: 300px;       /* set desired height */
+  height: 400px;       /* set desired height */
   object-fit: cover;   /* crop excess parts while maintaining aspect ratio */
 }
 

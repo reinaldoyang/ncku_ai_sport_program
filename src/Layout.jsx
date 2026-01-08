@@ -16,10 +16,19 @@ export function Layout(){
         "/news": "最近消息",
         "/activity": "近期活動",
         "/album": "活動花絮",
-        "/course": "微課程科目",
+        "/course": "課程名稱",
         "/class_regulation": "修課規定",
     };
-    const title = pageTitles[location.pathname] || ""; // fallback empty
+    
+    // Check for dynamic routes (like /album/1, /album/2, etc.)
+    let title = pageTitles[location.pathname] || "";
+    if (!title && location.pathname.startsWith("/album/")) {
+        title = "活動花絮";
+    }
+    if (!title && location.pathname.startsWith("/teachers/")) {
+        title = "微學程成員";
+    }
+    
     return (
         <>
             <Header />

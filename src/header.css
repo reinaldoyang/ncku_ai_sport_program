@@ -1,6 +1,11 @@
 .sport_logo{
-    width: 15%;
+    width: 20%;
     height:auto;
     min-width: 120px;  /* Prevents logo from getting too small */
-    max-width: 200px;
+    /* max-width: 200px; */
+}
+
+.header_size{
+    min-height: 20px;
+    max-height: 200px;
 }
