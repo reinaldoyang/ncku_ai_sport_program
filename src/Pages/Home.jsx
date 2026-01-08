@@ -1,4 +1,5 @@
 import Slide from '../Components/Slide';
+import NewsList from '../Components/NewsList';
 import img1 from '../assets/1/img1.jpg';
 import img2 from '../assets/1/img2.jpg';
 import img3 from '../assets/table_tennis.jpg';
@@ -10,5 +11,15 @@ export function Home() {
     { imgSrc: img3, title: "Welcome to AI Sport Program", text: "NCKU" },
   ];
 
-  return <Slide slides={slides} />;
+  return (
+    <>
+      <Slide slides={slides} />
+      <div style={{ height: 32 }} />
+      <main className="container mx-auto mt-10">
+        <NewsList />
+      </main>
+    </>
+
+  );
+  
 }
